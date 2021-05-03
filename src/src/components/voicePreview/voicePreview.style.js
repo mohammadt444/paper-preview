@@ -33,7 +33,6 @@ const useStyle = makeStyles({
     textAlign: "right",
   },
   textWrapper: {
-    // width: "100%",
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
@@ -67,25 +66,18 @@ const useStyle = makeStyles({
     display: "flex",
     background: "white",
     margin: 3,
-    // width: "33%",
     borderRadius: 1,
   },
   playIcon: {
-    // color: "#f65600",
     width: 38.651,
     display: "flex",
-    // height: 19.938,
     viewBox: "0 0 38.651 19.938",
-
-    // height: 20,
+    cursor: "pointer",
   },
   playIconWrapper: {
     padding: 0,
     display: "flex",
-    // height: 20,
-    // width: 38.5,
     borderRadius: 5,
-    // backgroundColor: "black",
     marginRight: 4.3,
     "&:hover": {
       backgroundColor: "white",
