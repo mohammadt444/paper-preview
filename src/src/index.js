@@ -9,7 +9,7 @@ import "./css/index.scss";
 import useStyle from "./index.style";
 import { cns } from "./helper/style/utils";
 
-export const PreviewComponent = ({ data }) => {
+const PreviewComponent = ({ data }) => {
   const contents = normalizeData(data);
   const classes = useStyle();
 
@@ -18,13 +18,12 @@ export const PreviewComponent = ({ data }) => {
       <div className={cns(classes.container, "scroll-bar")}>
         {contents.map((content) => (
           <div key={content._id} className={classes.wrapper}>
-            <ContentMapper
-              type={content.type}
-              data={content.data}
-            />
+            <ContentMapper type={content.type} data={content.data} />
           </div>
         ))}
       </div>
     </MuiThemeProvider>
   );
 };
+
+export default PreviewComponent;
