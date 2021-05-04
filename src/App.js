@@ -1,4 +1,4 @@
-import { PreviewComponent } from "./src";
+import PreviewComponent from "./src";
 function App() {
   const data = [
     {

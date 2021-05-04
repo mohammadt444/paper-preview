@@ -24,11 +24,13 @@ const useStyle = makeStyles({
     fontSize: 12,
     color: "white",
     fontWeight: 700,
+    textAlign: "left",
   },
   size: {
     fontSize: 12,
     fontWeight: 400,
     color: "rgba(255,255,255,0.57)",
+    textAlign: "left",
   },
   download: {
     color:
