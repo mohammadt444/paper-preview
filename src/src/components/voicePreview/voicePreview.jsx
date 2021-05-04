@@ -68,6 +68,7 @@ function VoicePreview({ fileId }) {
                 onClick={() => {
                   setIsPlaying(true);
                   audioRef.current.play();
+                  audioRef.current.volume = 1;
                 }}
                 className={classes.playIcon}
                 alt="play"
