@@ -20,7 +20,6 @@ export const PreviewComponent = ({ data }) => {
           <div key={content._id} className={classes.wrapper}>
             <ContentMapper
               type={content.type}
-              id={content._id}
               data={content.data}
             />
           </div>

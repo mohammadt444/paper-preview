@@ -7,10 +7,10 @@ import VideoPreview from "../../components/videoPreview/videoPreview";
 
 //TODO: object
 // const contents = {
-//   text: 
+//   text:
 // }
 
-function ContentMapper({ id, type, data }) {
+function ContentMapper({ type, data }) {
   switch (type) {
     case "text":
       return <TextPreview data={data} />;
@@ -20,7 +20,7 @@ function ContentMapper({ id, type, data }) {
     case "file":
       return <FilePreview fileId={data.fileId} />;
     case "voice":
-      return <VoicePreview id={id} />;
+      return <VoicePreview fileId={data.fileId} />;
     case "video":
       return <VideoPreview data={data} />;
     default:
