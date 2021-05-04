@@ -1,3 +1,4 @@
+import React from "react";
 // helpers
 import { getAparatUrlByLink } from "./videoPreview.helper";
 
