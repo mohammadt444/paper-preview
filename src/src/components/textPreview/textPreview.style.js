@@ -7,7 +7,6 @@ const useStyle = makeStyles({
     flexDirection: "column",
     paddingTop: -15,
     paddingBottom: -20,
-    textAlign: "left",
   },
 });
 
