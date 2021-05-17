@@ -1,0 +1,52 @@
+{
+  "name": "paper-preview",
+  "version": "0.0.8",
+  "description": "weblite paper-previre component",
+  "main": "./index.js",
+  "keywords": [
+    "react",
+    "weblite"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Weblite",
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.5.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@web-lite/storage": "^0.0.5",
+    "html-react-parser": "^1.2.6",
+    "node-sass": "^5.0.0",
+    "ramda": "^0.27.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "sass-loader": "^11.0.1",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1"
+  }
+}
